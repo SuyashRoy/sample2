@@ -1,0 +1,57 @@
+.a
+{
+    height: 40px;
+    color:greenyellow;
+}
+.b
+{
+    height: 40px;
+    color: black;
+}
+.c{
+    height: 40px;
+    background-color: green;
+}
+@media(max-width:500px)
+{
+    .a{
+        background-color: blueviolet;
+    }
+    .b
+        {
+        background-color: turquoise;
+    
+        }
+    .c
+        {
+            background-color: cadetblue;
+        }   
+}
+.nav-logo
+{
+    margin-right: 30px;
+}
+.nav-image{
+    margin-right: 0px;
+}
+body, html
+ {
+    height: 100%;
+    background-color: black;
+    color: aquamarine;
+ }
+  .bg
+ {
+      
+
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.u{
+    box-shadow: 10px 20px 20px black;
+}
